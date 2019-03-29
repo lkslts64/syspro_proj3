@@ -1,0 +1,8 @@
+#!/bin/bash
+rm ./tmp/fifo*
+rm ./log/Worker*
+rm ./docfile
+cd ../
+cd savedir/
+rm -r site*
+killall jobExecutor
